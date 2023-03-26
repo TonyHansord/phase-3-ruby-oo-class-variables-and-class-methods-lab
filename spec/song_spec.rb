@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe Song do
+Rspec.describe 'Song' do
   describe 'instance methods' do
     let!(:hit_me) { Song.new('hit me baby one more time', 'Brittany Spears', 'pop') }
     
